@@ -1,0 +1,15 @@
+.social-container{
+    margin: 70px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linked{
+    color: #fffafa;
+}
+.git{
+    color: #fffafa;
+}

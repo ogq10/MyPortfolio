@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import ProfileImage from '../assets/images/professional.jpg'
 const ProfileDesign = styled.div`
     .*{
         margin: 0px;
@@ -8,15 +8,13 @@ const ProfileDesign = styled.div`
     .id-card-wrapper{
         height: 100vh;
         width: 100%;
-        background-color: #091214;
         display: flex;
     }
     .id-card {
         flex-basis: 100%;
         max-width: 55em;
-        border: 1px solid rgb(97, 245, 245);
+        border: 1px solid #fffafa;
         margin: auto;
-        color: #fff;
         padding: 1em;
         background-color: #0A2129;
         box-shadow: 0px 0px 3px 1px #12a0a0, inset 0px 0px 3px 1px #12a0a0;
@@ -36,8 +34,9 @@ const ProfileDesign = styled.div`
       .profile-row .dp img {
         max-width: 100%;
         border-radius: 50%;
-        display: block;
-        box-shadow: 0px 0px 4px 3px #12a0a0;
+        display: inline-block;
+        overflow: hidden;
+        box-shadow: 0px 0px 4px 3px #fffafa;
       }
       .profile-row .desc {
         padding: 1em;
@@ -46,8 +45,8 @@ const ProfileDesign = styled.div`
         position: absolute;
         width: 100%;
         height: 100%;
-        border: 6px solid transparent;
-        border-top-color: #0AE0DF;
+        border: 4px solid transparent;
+        border-top-color: #fffafa;
         border-radius: 50%;
         top: -6px;
         left: -6px;
@@ -70,8 +69,8 @@ const ProfileDesign = styled.div`
             position: absolute;
             width: calc(100% + 25px);
             height: calc(100% + 20px);
-            border: 6px solid transparent;
-            border-bottom-color: #0AE0DF;
+            border: 4px solid transparent;
+            border-bottom-color: #fffafa;
             border-radius: 50%;
             top: -16px;
             left: -16px;
@@ -91,9 +90,9 @@ const ProfileDesign = styled.div`
           }
           
           .profile-row .desc {
-            font-family: 'Orbitron', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             color: #ecfcfb;
-            text-shadow: 0px 0px 4px #12a0a0;
+            text-shadow: 0px 0px 4px #292E49;
             letter-spacing: 1px;
           }
           .profile-row .desc h1 {
@@ -115,13 +114,12 @@ function About() {
                     <div className="dp">
                         <div className="dp-arc-outer"></div>
                             <div className="dp-arc-inner"></div>
-        <img src="https://via.placeholder.com/420x420"></img>
+        <img src={ProfileImage}/>
       </div>
       <div class="desc">
-        <h1>Tony Stark</h1>
-            <p>Strength: Ironman Suit</p>
-            <p>Weakness: None</p>
-            <p>Known as: Iron Man</p>
+        <h1>Omar Qoran</h1>
+            <p>
+              I'm a Software Developer from Jerusalem who recently graduated from Coding Temple Bootcamp. I currently live in Orland Park, IL where I am seeking a job opportunity in a Software Development position. I attended the University of New Orleans where I learned all about Electrical Engineering and Business before transitioning into programming with the help of Coding Temple. I discovered a passion for writing code and now I want to turn that passion into a career. I want to use the languages I know like Python and Javascript along with technologies like React.js, Flask, Postgresql, AWS, etc to bring value to companies that create services that customers love and use everyday.  </p>
       </div>
     </div>
   </div>

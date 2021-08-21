@@ -1,0 +1,44 @@
+.card {
+  width: 600px;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 170px auto;
+  outline: 2px solid #878787;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  outline-radius: 10px;
+}
+.card:hover {
+  box-shadow: 40px 30px 20px 10px rgba(0, 0, 0, 0.253);
+}
+
+.card-text {
+  font-size: 24px;
+  text-align: center;
+  color: #878787;
+  padding: 20px;
+}
+.card-title {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 30px;
+  color: #fffafa;
+}
+
+.live {
+  font-size: 20px;
+  color: #fffafa;
+  float: left;
+  margin: 20px 20px 0px 20px;
+}
+.source {
+  font-size: 20px;
+  color: #fffafa;
+  float: right;
+  margin: 20px 20px 20px 0;
+}
+
+.card-img-top {
+  max-height: 550px;
+  vertical-align: top;
+}

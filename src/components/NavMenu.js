@@ -1,8 +1,7 @@
-import {React, useState} from 'react'
-import {NavLink} from 'react-router-dom'
-import styled from 'styled-components'
-import { MdClose, MdMenu } from 'react-icons/md'
-
+import { React, useState } from "react";
+import { NavLink } from "react-router-dom";
+import styled from "styled-components";
+import { MdClose, MdMenu } from "react-icons/md";
 
 const NavMenuStyles = styled.div`
     position: fixed;
@@ -18,6 +17,10 @@ const NavMenuStyles = styled.div`
         margin: 0 auto;
         width: 90%;
         text-align: center;
+        text-decoration: none;
+    }
+    .active{
+        color: var(--white);
     }
     li{
         display: inline-block;
@@ -26,6 +29,8 @@ const NavMenuStyles = styled.div`
         &:hover{
             background-color: var(--deep-dark);
         }
+        text-decoration: none;
+
     }
     a{
         display: inline-block;
@@ -34,10 +39,10 @@ const NavMenuStyles = styled.div`
         font-size: 2rem;
         color: var(--gray-1);
         outline: none;
+        text-decoration: none;
+
     }
-    .active{
-        color: var(--white);
-    }
+    
 }
 .mobile-menu-icon{
     position: absolute;
@@ -92,69 +97,93 @@ const NavMenuStyles = styled.div`
 `;
 
 function NavMenu() {
-    const [showNav, setShowNav] = useState(false);
-    
-    return (
-        <NavMenuStyles>
-            <div className="mobile-menu-icon"
+  const [showNav, setShowNav] = useState(false);
+
+  return (
+    <NavMenuStyles>
+      <div
+        className="mobile-menu-icon"
+        onClick={() => setShowNav(!showNav)}
+        role="button"
+        onKeyDown={() => setShowNav(!showNav)}
+        tabIndex={0}
+      >
+        <MdMenu />
+      </div>
+
+      <ul className={!showNav ? "navItems hide-item" : "navItems"}>
+        <div
+          className="closeNavIcon"
+          onClick={() => setShowNav(!showNav)}
+          role="button"
+          onKeyDown={() => setShowNav(!showNav)}
+          tabIndex={0}
+        >
+          <MdClose />
+        </div>
+        <li>
+          <NavLink
+            exact to="/"
             onClick={() => setShowNav(!showNav)}
             role="button"
             onKeyDown={() => setShowNav(!showNav)}
             tabIndex={0}
-            >
-                <MdMenu/>
-            </div>
+          >
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/about"
+            onClick={() => setShowNav(!showNav)}
+            role="button"
+            onKeyDown={() => setShowNav(!showNav)}
+            tabIndex={0}
+          >
+            About
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/projects"
+            onClick={() => setShowNav(!showNav)}
+            role="button"
+            onKeyDown={() => setShowNav(!showNav)}
+            tabIndex={0}
+          >
+            Projects
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/contact"
+            onClick={() => setShowNav(!showNav)}
+            role="button"
+            onKeyDown={() => setShowNav(!showNav)}
+            tabIndex={0}
+          >
+            Contact
+          </NavLink>
+        </li>
+        <li>
+        <a
+        class="download-resume"
+        href="https://drive.google.com/file/d/1IpHVp36AAfdSwHHsRST-zbu9LnJuANWf/view?usp=sharing"
+        target="_blank"
+        rel="noreferrer noopener"
+      >CV</a>
+          
+          
+             
+         
+            
+          
+        </li>
 
-            <ul className={!showNav ? 'navItems hide-item' : 'navItems'}>
-                
-                <div className="closeNavIcon" 
-                onClick={() => setShowNav(!showNav)}
-                role="button"
-                onKeyDown={() => setShowNav(!showNav)}
-                tabIndex={0}
-                >
-                
-                <MdClose/>
-                </div>
-                <li>
-                    <NavLink 
-                    to="/"
-                    onClick={() => setShowNav(!showNav)}
-                    role="button"
-                    onKeyDown={() => setShowNav(!showNav)}
-                    tabIndex={0}
-                    >
-                        Home
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink to="/about"
-                    onClick={() => setShowNav(!showNav)}
-                    role="button"
-                    onKeyDown={() => setShowNav(!showNav)}
-                    tabIndex={0}
-                    >About</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/projects"
-                    onClick={() => setShowNav(!showNav)}
-                    role="button"
-                    onKeyDown={() => setShowNav(!showNav)}
-                    tabIndex={0}
-                    >Projects</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/contact"
-                    onClick={() => setShowNav(!showNav)}
-                    role="button"
-                    onKeyDown={() => setShowNav(!showNav)}
-                    tabIndex={0}
-                    >Contact</NavLink>
-                </li>
-            </ul>
-
-        </NavMenuStyles>
-    )
+        
+      </ul>
+    </NavMenuStyles>
+  );
 }
 
-export default NavMenu
+export default NavMenu;
