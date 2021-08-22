@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.c3bf8417.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.202ffde6.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.202ffde6.chunk.js.map",
-    "runtime-main.js": "/MyPortfolio/static/js/runtime-main.c5d2e809.js",
-    "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.c5d2e809.js.map",
-    "static/js/2.a9dd0346.chunk.js": "/MyPortfolio/static/js/2.a9dd0346.chunk.js",
-    "static/js/2.a9dd0346.chunk.js.map": "/MyPortfolio/static/js/2.a9dd0346.chunk.js.map",
-    "index.html": "/MyPortfolio/index.html",
-    "static/css/main.c3bf8417.chunk.css.map": "/MyPortfolio/static/css/main.c3bf8417.chunk.css.map",
-    "static/js/2.a9dd0346.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.a9dd0346.chunk.js.LICENSE.txt",
-    "static/media/Celeb.7975a140.JPG": "/MyPortfolio/static/media/Celeb.7975a140.JPG",
-    "static/media/Movies.d8c6f6a2.JPG": "/MyPortfolio/static/media/Movies.d8c6f6a2.JPG",
-    "static/media/professional.0c8dc198.jpg": "/MyPortfolio/static/media/professional.0c8dc198.jpg",
-    "static/media/weather.1986fc1b.png": "/MyPortfolio/static/media/weather.1986fc1b.png"
+    "main.css": "/static/css/main.c3bf8417.chunk.css",
+    "main.js": "/static/js/main.202ffde6.chunk.js",
+    "main.js.map": "/static/js/main.202ffde6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7332440f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7332440f.js.map",
+    "static/js/2.0e43abb6.chunk.js": "/static/js/2.0e43abb6.chunk.js",
+    "static/js/2.0e43abb6.chunk.js.map": "/static/js/2.0e43abb6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c3bf8417.chunk.css.map": "/static/css/main.c3bf8417.chunk.css.map",
+    "static/js/2.0e43abb6.chunk.js.LICENSE.txt": "/static/js/2.0e43abb6.chunk.js.LICENSE.txt",
+    "static/media/Celeb.7975a140.JPG": "/static/media/Celeb.7975a140.JPG",
+    "static/media/Movies.d8c6f6a2.JPG": "/static/media/Movies.d8c6f6a2.JPG",
+    "static/media/professional.0c8dc198.jpg": "/static/media/professional.0c8dc198.jpg",
+    "static/media/weather.1986fc1b.png": "/static/media/weather.1986fc1b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c5d2e809.js",
-    "static/js/2.a9dd0346.chunk.js",
+    "static/js/runtime-main.7332440f.js",
+    "static/js/2.0e43abb6.chunk.js",
     "static/css/main.c3bf8417.chunk.css",
     "static/js/main.202ffde6.chunk.js"
   ]
