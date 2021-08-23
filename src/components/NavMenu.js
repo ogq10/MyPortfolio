@@ -168,7 +168,7 @@ function NavMenu() {
         <li>
         <a
         class="download-resume"
-        href="https://drive.google.com/file/d/1IpHVp36AAfdSwHHsRST-zbu9LnJuANWf/view?usp=sharing"
+        href="https://drive.google.com/file/d/1p9cmbl93C7NVt8w68sn_xMkS5v82IhMT/view?usp=sharing"
         target="_blank"
         rel="noreferrer noopener"
       >CV</a>

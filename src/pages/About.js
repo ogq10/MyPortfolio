@@ -119,7 +119,7 @@ function About() {
       <div class="desc">
         <h1>Omar Qoran</h1>
             <p>
-              I'm a Software Developer from Jerusalem who recently graduated from Coding Temple Bootcamp. I currently live in Orland Park, IL where I am seeking a job opportunity in a Software Development position. I attended the University of New Orleans where I learned all about Electrical Engineering and Business before transitioning into programming with the help of Coding Temple. I discovered a passion for writing code and now I want to turn that passion into a career. I want to use the languages I know like Python and Javascript along with technologies like React.js, Flask, Postgresql, AWS, etc to bring value to companies that create services that customers love and use everyday.  </p>
+              I'm a Software Developer from Jerusalem who recently graduated from Coding Temple Bootcamp. I currently live in Chicago, IL where I am seeking a job opportunity in a Software Development position. I attended the University of New Orleans where I learned all about Electrical Engineering and Business before transitioning into programming with the help of Coding Temple. I discovered a passion for writing code and now I want to turn that passion into a career. I want to use the languages I know like Python and Javascript along with technologies like React.js, Flask, Postgresql, AWS, etc to bring value to companies that create services that customers love and use everyday.  </p>
       </div>
     </div>
   </div>
