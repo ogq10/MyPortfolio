@@ -67,6 +67,7 @@ const NavMenuStyles = styled.div`
     }
     .mobile-menu-icon{
         display: block;
+        margin: 8px;
     }
     .navItems{
         transition: .3s ease transform;
@@ -168,10 +169,10 @@ function NavMenu() {
         <li>
         <a
         class="download-resume"
-        href="https://drive.google.com/file/d/1p9cmbl93C7NVt8w68sn_xMkS5v82IhMT/view?usp=sharing"
+        href="https://drive.google.com/file/d/11VxKLhHkrubllSvC-5GcxR9N06wt0yDV/view?usp=sharing"
         target="_blank"
         rel="noreferrer noopener"
-      >CV</a>
+      >Resume</a>
           
           
              

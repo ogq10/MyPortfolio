@@ -10,6 +10,8 @@ function Socials() {
       <a
         href="https://www.linkedin.com/in/omar-qoran/"
         className="linkedin"
+        target="_blank"
+        rel="noreferrer noopener"
       >
         <FontAwesomeIcon icon={faLinkedin} size="4x" className="linked"/>
       </a>
@@ -17,6 +19,8 @@ function Socials() {
       <a
         href="https://github.com/ogq10"
         className="github social"
+        target="_blank"
+        rel="noreferrer noopener"
       >
         <FontAwesomeIcon icon={faGithub} size="4x" className="git"/>
       </a>

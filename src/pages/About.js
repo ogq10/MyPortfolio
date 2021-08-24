@@ -10,13 +10,19 @@ const ProfileDesign = styled.div`
         width: 100%;
         display: flex;
     }
+    @media only screen and (max-width: 600px){
+      .id-card-wrapper{
+        width: 90%;
+        margin: 10px auto;
+        font-size: 11px;
+      }
+    }
     .id-card {
         flex-basis: 100%;
         max-width: 55em;
         border: 1px solid #fffafa;
         margin: auto;
         padding: 1em;
-        background-color: #0A2129;
         box-shadow: 0px 0px 3px 1px #12a0a0, inset 0px 0px 3px 1px #12a0a0;
       }
       .profile-row {
@@ -92,11 +98,12 @@ const ProfileDesign = styled.div`
           .profile-row .desc {
             font-family: 'Montserrat', sans-serif;
             color: #ecfcfb;
-            text-shadow: 0px 0px 4px #292E49;
+            text-shadow: 0px 0px 8px #292E49;
             letter-spacing: 1px;
           }
           .profile-row .desc h1 {
             margin: 0px;
+            padding: 10px 2px;
           }
         }
     }
