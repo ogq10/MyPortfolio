@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3bf8417.chunk.css",
-    "main.js": "/static/js/main.bd7088f3.chunk.js",
-    "main.js.map": "/static/js/main.bd7088f3.chunk.js.map",
+    "main.css": "/static/css/main.ee708d4b.chunk.css",
+    "main.js": "/static/js/main.15bbdadd.chunk.js",
+    "main.js.map": "/static/js/main.15bbdadd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7332440f.js",
     "runtime-main.js.map": "/static/js/runtime-main.7332440f.js.map",
     "static/js/2.0e43abb6.chunk.js": "/static/js/2.0e43abb6.chunk.js",
     "static/js/2.0e43abb6.chunk.js.map": "/static/js/2.0e43abb6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.c3bf8417.chunk.css.map": "/static/css/main.c3bf8417.chunk.css.map",
+    "static/css/main.ee708d4b.chunk.css.map": "/static/css/main.ee708d4b.chunk.css.map",
     "static/js/2.0e43abb6.chunk.js.LICENSE.txt": "/static/js/2.0e43abb6.chunk.js.LICENSE.txt",
     "static/media/Celeb.7975a140.JPG": "/static/media/Celeb.7975a140.JPG",
     "static/media/Movies.d8c6f6a2.JPG": "/static/media/Movies.d8c6f6a2.JPG",
-    "static/media/professional.0c8dc198.jpg": "/static/media/professional.0c8dc198.jpg",
+    "static/media/professional.c60bcc4a.jpg": "/static/media/professional.c60bcc4a.jpg",
     "static/media/weather.1986fc1b.png": "/static/media/weather.1986fc1b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7332440f.js",
     "static/js/2.0e43abb6.chunk.js",
-    "static/css/main.c3bf8417.chunk.css",
-    "static/js/main.bd7088f3.chunk.js"
+    "static/css/main.ee708d4b.chunk.css",
+    "static/js/main.15bbdadd.chunk.js"
   ]
 }
